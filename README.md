@@ -1,7 +1,7 @@
 # cli-gophish-guide
 A script to help automate campaign creation in GoPhish
 
-Format: ./phish.py <title> <sendername> <senderemail> <targetlist.csv> <email.html> <emailsubject> <pageurl> <page.html> <launchtime>
+    Format: ./phish.py <title> <sendername> <senderemail> <targetlist.csv> <email.html> <emailsubject> <pageurl> <page.html> <launchtime>
 
     eg: ./phish.py "Campaign Name" "John Doe" jdoe@mail.com targets.csv email.html "Email Subject Line" http://insecure.com page.html 2018/06/29@14:30
         ./phish.py "Phish Test Title" "JK Rowling" jkr@mail.com /path/targets.csv email.html "New Book" https://login.phishing.com page.html 1999/12/31@23:59
@@ -16,7 +16,7 @@ Format: ./phish.py <title> <sendername> <senderemail> <targetlist.csv> <email.ht
          page.html.........contents of landing page in html format
          launchtime........date and time (24hr) to send email
 
- Alternative:
-         -g................campaign creation guide 
+    Alternative:
+             -g................campaign creation walk through
 
- !format for launchtime MUST use format YYYY/MM/DD@HH:MM [eg: 2018/06/14@4:22]
+    !format for launchtime MUST use format YYYY/MM/DD@HH:MM [eg: 2018/06/14@4:22]
