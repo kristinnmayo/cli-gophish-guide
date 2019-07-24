@@ -104,9 +104,7 @@ def newgroup(name, path):
             for row in reader:
                 if row:
                     targetlist.append(newuser(row))
-
-        # targetlist.append(User(email='kmayo@newpaltz.edu'))
-        # targetlist.append(User(email='chauvetp@newpaltz.edu'))
+                    
         group = Group(name=name, targets=targetlist)
 
     except(FileNotFoundError):
