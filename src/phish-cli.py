@@ -230,7 +230,9 @@ def phishingtime(stamp):
 
 # =============================================================================
 # check number of command line arguments
-# if given, pass to launch, else print format on exit
+# if g flag, pass to guide
+# if correct number of arguments, pass to launch
+#  else print format on exit
 # =============================================================================
 def main():
     global api, sender_host, verify
